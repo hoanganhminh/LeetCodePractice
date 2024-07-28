@@ -1,34 +1,28 @@
-﻿public class Solution
+﻿namespace TestConsoleApp.Problems.Easy.Roman_to_Integer;
+
+public class Solution
 {
-    public bool IsPalindrome(int x)
-    {
-        char[] list = x.ToString().ToCharArray();
-
-        //if (!String.Join("", list.Reverse().ToArray()).Equals(String.Join("", list)))
-        //{
-        //    return false;
-        //}
-
-        return String.Join("", list.Reverse().ToArray()).Equals(String.Join("", list));
-    }
-
     public int RomanToInt(string s)
     {
         int result = 0;
-        char[] list = (s+"P").ToCharArray();
+        char[] list = s.ToCharArray();
 
         for (int i = 0; i < list.Length; i++)
         {
-            if (list[i] == 'M') result += 1000;
-            else if (list[i] == 'D') result += 500;
+            if (list[i] == 'M')
+                result += 1000;
+
+            else if (list[i] == 'D')
+                result += 500;
+
             else if (list[i] == 'C')
             {
-                if (list[i+1] == 'D')
+                if ((i + 1) < list.Length && list[i + 1] == 'D')
                 {
                     result += 400;
                     i++;
                 }
-                else if (list[i+1] == 'M')
+                else if ((i + 1) < list.Length && list[i + 1] == 'M')
                 {
                     result += 900;
                     i++;
@@ -38,15 +32,18 @@
                     result += 100;
                 }
             }
-            else if (list[i] == 'L') result += 50;
+
+            else if (list[i] == 'L')
+                result += 50;
+
             else if (list[i] == 'X')
             {
-                if (list[i+1] == 'L')
+                if ((i + 1) < list.Length && list[i + 1] == 'L')
                 {
                     result += 40;
                     i++;
                 }
-                else if (list[i+1] == 'C')
+                else if ((i + 1) < list.Length && list[i + 1] == 'C')
                 {
                     result += 90;
                     i++;
@@ -56,15 +53,18 @@
                     result += 10;
                 }
             }
-            else if (list[i] == 'V') result += 5;
+
+            else if (list[i] == 'V')
+                result += 5;
+
             else if (list[i] == 'I')
             {
-                if (list[i+1] == 'V')
+                if ((i + 1) < list.Length && list[i + 1] == 'V')
                 {
                     result += 4;
                     i++;
                 }
-                else if (list[i+1] == 'X')
+                else if ((i + 1) < list.Length && list[i + 1] == 'X')
                 {
                     result += 9;
                     i++;
@@ -77,10 +77,5 @@
         }
 
         return result;
-    }
-
-    public string LongestCommonPrefix(string[] strs)
-    {
-        return null;
     }
 }

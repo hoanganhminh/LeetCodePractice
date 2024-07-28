@@ -1,6 +1,7 @@
-﻿
+﻿using TestConsoleApp.Problems.Easy.Roman_to_Integer;
 
-Console.WriteLine("Hello, World!");
-Solution x = new Solution();
-var a = x.RomanToInt("III");
-Console.WriteLine(a);
+Solution RomanToIntegerSolution = new Solution();
+
+var result = RomanToIntegerSolution.RomanToInt("III");
+
+Console.WriteLine(result);

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\source\\repos\\TestConsoleApp\\TestConsoleApp\\TestConsoleApp.csproj": {}
+    "D:\\1. Anh Minh Zone!!!\\Coding\\LeetCodePractice\\TestConsoleApp\\TestConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\source\\repos\\TestConsoleApp\\TestConsoleApp\\TestConsoleApp.csproj": {
+    "D:\\1. Anh Minh Zone!!!\\Coding\\LeetCodePractice\\TestConsoleApp\\TestConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\TestConsoleApp\\TestConsoleApp\\TestConsoleApp.csproj",
+        "projectUniqueName": "D:\\1. Anh Minh Zone!!!\\Coding\\LeetCodePractice\\TestConsoleApp\\TestConsoleApp.csproj",
         "projectName": "TestConsoleApp",
-        "projectPath": "C:\\Users\\ADMIN\\source\\repos\\TestConsoleApp\\TestConsoleApp\\TestConsoleApp.csproj",
+        "projectPath": "D:\\1. Anh Minh Zone!!!\\Coding\\LeetCodePractice\\TestConsoleApp\\TestConsoleApp.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\source\\repos\\TestConsoleApp\\TestConsoleApp\\obj\\",
+        "outputPath": "D:\\1. Anh Minh Zone!!!\\Coding\\LeetCodePractice\\TestConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
