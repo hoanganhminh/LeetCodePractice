@@ -15,6 +15,9 @@ public class Solution
         {
             for (int j = 0; j < strs.Length; j++)
             {
+                if(j + 1 >= strs.Length)
+                    break;
+
                 if (firstStringCharList[i] != strs[j + 1].ToCharArray()[i])
                 {
                     checkDifferent = true;

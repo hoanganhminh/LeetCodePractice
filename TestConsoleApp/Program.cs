@@ -1,12 +1,7 @@
-﻿//using TestConsoleApp.Problems.Easy.Roman_to_Integer;
+﻿using TestConsoleApp.Problems.Easy.Valid_Parentheses;
 
-//Solution RomanToIntegerSolution = new Solution();
-using TestConsoleApp.Problems.Easy.Longest_Common_Prefix;
+Solution Valid_Parentheses = new Solution();
 
-Solution RomanToIntegerSolution = new Solution();
-
-
-
-var result = RomanToIntegerSolution.LongestCommonPrefix(["ab", "a"]);
+var result = Valid_Parentheses.IsValid("){");
 
 Console.WriteLine(result);
