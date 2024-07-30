@@ -6,23 +6,47 @@ public class Solution
     {
         try
         {
-            var list = s.ToCharArray();
+            List<char> list = s.ToCharArray().ToList();
 
-            if (list.Length <= 1) return false;
+            if (list.Count <= 1 || list.Count % 2 != 0) return false;
 
-            for (int i = 0; i < list.Length; i++)
+            bool flag = true;
+
+            while (flag)
             {
-                if (list[i] == '(' && list[i + 1] != ')' && list[list.Length - 1 - i] != ')') return false;
-                if (list[i] == '{' && list[i + 1] != '}' && list[list.Length - 1 - i] != '}') return false;
-                if (list[i] == '[' && list[i + 1] != ']' && list[list.Length - 1 - i] != ']') return false;
-                if (list[i] == ')' && list[i + 1] != '(' && list[list.Length - 1 - i] != '(') return false;
-                if (list[i] == '}' && list[i + 1] != '{' && list[list.Length - 1 - i] != '{') return false;
-                if (list[i] == ']' && list[i + 1] != '[' && list[list.Length - 1 - i] != '[') return false;
+                for (int i = 0; i < list.Count; i++)
+                {
+                    flag = false;
+
+                    if (list[i] == ')' && list[i - 1] == '(')
+                    {
+                        list.RemoveAt(i);
+                        list.RemoveAt(i - 1);
+                        flag = true;
+                        break;
+                    }
+                    if (list[i] == '}' && list[i - 1] == '{')
+                    {
+                        list.RemoveAt(i);
+                        list.RemoveAt(i - 1);
+                        flag = true;
+                        break;
+                    }
+                    if (list[i] == ']' && list[i - 1] == '[')
+                    {
+                        list.RemoveAt(i);
+                        list.RemoveAt(i - 1);
+                        flag = true;
+                        break;
+                    }
+                }
+
+                if (list.Count == 0) return true;
             }
 
-            return true;
+            return list.Count == 0 ? true : false;
         }
-        catch
+        catch (Exception)
         {
             return false;
         }
