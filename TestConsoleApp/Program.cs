@@ -1,8 +1,9 @@
-﻿using TestConsoleApp.Problems.Easy.Merge_Sorted_Array;
+﻿using TestConsoleApp.Problems.Easy.Add_Binary;
 
-Solution Merge_Sorted_Array = new Solution();
-int[] num1 = [1, 2, 3, 0, 0, 0];
-int[] num2 = [2, 5, 6];
-Merge_Sorted_Array.Merge(num1, 3,num2 , 3);
+Solution Add_Binary = new Solution();
+int[] nums = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0];
+string num1 = "11";
+string num2 = "1";
+var result = Add_Binary.AddBinary(num1, num2);
 
-//Console.WriteLine(result);
+Console.WriteLine(result);
