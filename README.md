@@ -17,14 +17,17 @@ Problems/
   |-- Easy/
   |   |-- <Problem Name>/
   |   |   |-- Solution.cs
+  |   |   |-- Solution.sql
   |
   |-- Medium/
   |   |-- <Problem Name>/
   |   |   |-- Solution.cs
-  |
+  |   |   |-- Solution.sql
+|
   |-- Hard/
       |-- <Problem Name>/
           |-- Solution.cs
+          |-- Solution.sql
 ```
 
 ## How to Use
