@@ -9,12 +9,12 @@ public class Solution
 
         var rs = new List<string>();
 
-        arr.ForEach(x => 
+        arr.ForEach(x =>
         {
-            if (!arr.Contains(x))
+            if (arr.FindAll(y => y.Equals(x)).Count == 1)
             {
                 rs.Add(x);
-            } 
+            }
         });
 
         return rs.ToArray();
