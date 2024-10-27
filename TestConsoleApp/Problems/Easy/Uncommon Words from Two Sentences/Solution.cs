@@ -9,7 +9,7 @@ public class Solution
 
         var rs = new List<string>();
 
-        arr.ForEach(x =>
+        arr.Distinct().ToList().ForEach(x =>
         {
             if (arr.FindAll(y => y.Equals(x)).Count == 1)
             {
