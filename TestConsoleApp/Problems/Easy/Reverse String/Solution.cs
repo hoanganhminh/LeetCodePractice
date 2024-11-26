@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Reverse_String;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Reverse_String;
 
 public class Solution
 {

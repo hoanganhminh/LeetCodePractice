@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Sqrt_x_;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Sqrt_x_;
 
 public class Solution
 {

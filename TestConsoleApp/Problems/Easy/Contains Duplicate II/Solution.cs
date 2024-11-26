@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Contains_Duplicate_II;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Contains_Duplicate_II;
 
 public class Solution
 {

@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Add_Binary;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Add_Binary;
 
 public class Solution
 {

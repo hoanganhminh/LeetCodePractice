@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Happy_Number;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Happy_Number;
 
 public class Solution
 {

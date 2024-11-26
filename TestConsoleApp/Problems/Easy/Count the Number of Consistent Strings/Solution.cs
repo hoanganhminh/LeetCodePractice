@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Count_the_Number_of_Consistent_Strings;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Count_the_Number_of_Consistent_Strings;
 
 public class Solution
 {

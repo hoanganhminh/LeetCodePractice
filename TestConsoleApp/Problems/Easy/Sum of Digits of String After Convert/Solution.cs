@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Sum_of_Digits_of_String_After_Convert;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Sum_of_Digits_of_String_After_Convert;
 
 public class Solution
 {

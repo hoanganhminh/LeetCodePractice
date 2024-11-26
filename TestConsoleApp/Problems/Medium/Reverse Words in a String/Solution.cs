@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Medium.Reverse_Words_in_a_String;
+﻿namespace LeetCodeSolutionsProject.Problems.Medium.Reverse_Words_in_a_String;
 
 public class Solution
 {

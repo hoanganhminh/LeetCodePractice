@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Valid_Palindrome;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Valid_Palindrome;
 
 public class Solution
 {

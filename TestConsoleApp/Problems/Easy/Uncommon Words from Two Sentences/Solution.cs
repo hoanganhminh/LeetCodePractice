@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Uncommon_Words_from_Two_Sentences;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Uncommon_Words_from_Two_Sentences;
 
 public class Solution
 {

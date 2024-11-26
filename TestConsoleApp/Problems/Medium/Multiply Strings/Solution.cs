@@ -1,6 +1,6 @@
 ﻿using System.Numerics;
 
-namespace TestConsoleApp.Problems.Medium.Multiply_Strings;
+namespace LeetCodeSolutionsProject.Problems.Medium.Multiply_Strings;
 
 public class Solution
 {

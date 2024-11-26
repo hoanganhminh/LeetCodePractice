@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Longest_Common_Prefix;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Longest_Common_Prefix;
 
 public class Solution
 {

@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Reformat_Phone_Number;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Reformat_Phone_Number;
 
 public class Solution
 {

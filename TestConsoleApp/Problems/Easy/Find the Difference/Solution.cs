@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Find_the_Difference;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Find_the_Difference;
 
 public class Solution
 {

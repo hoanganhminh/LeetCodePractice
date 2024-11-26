@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Hard.Longest_Valid_Parentheses;
+﻿namespace LeetCodeSolutionsProject.Problems.Hard.Longest_Valid_Parentheses;
 
 public class Solution
 {

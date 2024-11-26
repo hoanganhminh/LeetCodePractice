@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Add_Digits;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Add_Digits;
 
 public class Solution
 {

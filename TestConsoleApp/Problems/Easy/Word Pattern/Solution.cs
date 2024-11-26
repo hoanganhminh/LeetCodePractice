@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Word_Pattern;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Word_Pattern;
 
 public class Solution
 {

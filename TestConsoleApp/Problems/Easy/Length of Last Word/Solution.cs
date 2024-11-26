@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Length_of_Last_Word;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Length_of_Last_Word;
 
 public class Solution
 {

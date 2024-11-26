@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Shuffle_String;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Shuffle_String;
 
 public class Solution
 {

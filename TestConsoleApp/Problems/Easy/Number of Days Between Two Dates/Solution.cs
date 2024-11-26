@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Number_of_Days_Between_Two_Dates;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Number_of_Days_Between_Two_Dates;
 
 public class Solution
 {

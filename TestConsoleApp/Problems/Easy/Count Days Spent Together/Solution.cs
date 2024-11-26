@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Count_Days_Spent_Together;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Count_Days_Spent_Together;
 
 public class Solution
 {

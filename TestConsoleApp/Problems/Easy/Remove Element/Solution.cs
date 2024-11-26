@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Remove_Element;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Remove_Element;
 
 public class Solution
 {

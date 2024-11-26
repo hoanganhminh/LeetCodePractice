@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Roman_to_Integer;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Roman_to_Integer;
 
 public class Solution
 {

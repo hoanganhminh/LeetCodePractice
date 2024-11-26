@@ -1,6 +1,6 @@
 ﻿using System.Numerics;
 
-namespace TestConsoleApp.Problems.Easy.Plus_One;
+namespace LeetCodeSolutionsProject.Problems.Easy.Plus_One;
 
 public class Solution
 {

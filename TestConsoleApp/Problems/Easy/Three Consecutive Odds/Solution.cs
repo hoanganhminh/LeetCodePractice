@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Three_Consecutive_Odds;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Three_Consecutive_Odds;
 
 public class Solution
 {

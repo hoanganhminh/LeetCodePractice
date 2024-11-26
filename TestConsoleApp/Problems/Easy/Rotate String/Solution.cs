@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Rotate_String;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Rotate_String;
 
 public class Solution
 {

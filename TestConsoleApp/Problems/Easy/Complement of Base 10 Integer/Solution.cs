@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Complement_of_Base_10_Integer;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Complement_of_Base_10_Integer;
 
 public class Solution
 {

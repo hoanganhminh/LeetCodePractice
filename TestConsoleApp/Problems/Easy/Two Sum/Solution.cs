@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Two_Sum;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Two_Sum;
 
 public class Solution
 {

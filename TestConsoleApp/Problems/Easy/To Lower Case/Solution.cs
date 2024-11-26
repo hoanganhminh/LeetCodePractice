@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.To_Lower_Case;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.To_Lower_Case;
 
 public class Solution
 {

@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Add_Two_Integers;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Add_Two_Integers;
 
 public class Solution
 {

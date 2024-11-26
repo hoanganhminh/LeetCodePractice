@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Number_Complement;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Number_Complement;
 
 public class Solution
 {

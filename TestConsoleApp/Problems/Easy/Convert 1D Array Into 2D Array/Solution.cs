@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Convert_1D_Array_Into_2D_Array;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Convert_1D_Array_Into_2D_Array;
 
 public class Solution
 {

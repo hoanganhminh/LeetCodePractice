@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Max_Consecutive_Ones;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Max_Consecutive_Ones;
 
 public class Solution
 {

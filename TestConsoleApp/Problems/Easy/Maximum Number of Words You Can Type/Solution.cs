@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Maximum_Number_of_Words_You_Can_Type;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Maximum_Number_of_Words_You_Can_Type;
 
 public class Solution
 {

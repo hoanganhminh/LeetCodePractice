@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Valid_Anagram;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Valid_Anagram;
 
 public class Solution
 {

@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Medium.Reverse_Integer;
+﻿namespace LeetCodeSolutionsProject.Problems.Medium.Reverse_Integer;
 
 public class Solution
 {

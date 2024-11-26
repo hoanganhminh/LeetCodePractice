@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Day_of_the_Year;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Day_of_the_Year;
 
 public class Solution
 {

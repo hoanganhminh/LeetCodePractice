@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Problems\Medium\" />
     <Folder Include="Problems\Hard\" />
+    <Folder Include="Problems\Medium\Monthly Transactions I\" />
   </ItemGroup>
 
 </Project>

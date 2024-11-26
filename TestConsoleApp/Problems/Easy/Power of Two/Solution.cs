@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Power_of_Two;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Power_of_Two;
 
 public class Solution
 {

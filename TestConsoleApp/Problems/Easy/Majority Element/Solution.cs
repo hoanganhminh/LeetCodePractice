@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Majority_Element;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Majority_Element;
 
 public class Solution
 {

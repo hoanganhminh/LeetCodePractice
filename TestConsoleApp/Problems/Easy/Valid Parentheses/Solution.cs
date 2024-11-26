@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Valid_Parentheses;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Valid_Parentheses;
 
 public class Solution
 {

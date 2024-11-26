@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Merge_Sorted_Array;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Merge_Sorted_Array;
 
 public class Solution
 {

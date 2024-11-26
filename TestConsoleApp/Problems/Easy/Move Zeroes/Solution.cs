@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Move_Zeroes;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Move_Zeroes;
 
 public class Solution
 {

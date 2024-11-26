@@ -1,4 +1,4 @@
-﻿namespace TestConsoleApp.Problems.Easy.Search_Insert_Position;
+﻿namespace LeetCodeSolutionsProject.Problems.Easy.Search_Insert_Position;
 public class Solution
 {
     public int SearchInsert(int[] nums, int target)
