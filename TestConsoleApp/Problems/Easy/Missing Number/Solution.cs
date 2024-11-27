@@ -4,6 +4,13 @@ public class Solution
 {
     public int MissingNumber(int[] nums)
     {
-        return nums.Length * (nums.Length + 1) / 2 - nums.Sum();
+        var currentSum = 0;
+
+        for (int i = 0; i < nums.Length; i++)
+        {
+            currentSum += nums[i];
+        }
+
+        return nums.Length * (nums.Length + 1) / 2 - currentSum;
     }
 }
