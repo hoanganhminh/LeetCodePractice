@@ -12,5 +12,3 @@ from
     order by sell_date
 ) as a
 group by a.sell_date
-
-
