@@ -12,15 +12,20 @@ public class Solution
         }
 
         var lettersOnly = s.ToLower().Where(x => char.IsLetterOrDigit(x)).ToList();
+        var left = 0;
+        var right = lettersOnly.Count - 1;
 
+        while (left <= right)
+        {
+            if (lettersOnly[left] != lettersOnly[right])
+            {
+                return false;
+            }
 
-        if (lettersOnly.Count == 1)
-            return true;
+            left++;
+            right--;
+        }
 
-        int position = lettersOnly.Count % 2 == 0 ? 0 : 1;
-        var f = lettersOnly.Skip(0).Take((lettersOnly.Count) / 2).ToList();
-        var l = lettersOnly.Skip((lettersOnly.Count) / 2 + position).Reverse().ToList();
-
-        return Enumerable.SequenceEqual(f, l);
+        return true;
     }
 }
