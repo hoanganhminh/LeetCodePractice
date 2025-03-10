@@ -4,17 +4,24 @@ public class Solution
 {
     public bool ContainsNearbyDuplicate(int[] nums, int k)
     {
-        if (nums.Length == nums.Distinct().Count())
-            return false;
+        Dictionary<int, int> dic = [];
 
         for (int i = 0; i < nums.Length; i++)
         {
-            for (int j = i + 1; j < nums.Length; j++)
+            if (dic.TryGetValue(nums[i], out int index))
             {
-                if (nums[i] == nums[j] && Math.Abs(i - j) <= k)
+                if (nums[i] == nums[index] && Math.Abs(i - index) <= k)
                 {
                     return true;
                 }
+                else
+                {
+                    dic[nums[i]] = i;
+                }
+            }
+            else
+            {
+                dic.Add(nums[i], i);
             }
         }
 
