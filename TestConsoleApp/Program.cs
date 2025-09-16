@@ -1,4 +1,5 @@
-﻿//Solution slt = new Solution();
+﻿using LeetCodeSolutionsProject.Problems.Easy._9._Palindrome_Number;
 
-//Console.WriteLine(slt.IsPalindrome("aa"));
+Solution slt = new();
 
+Console.WriteLine(slt.IsPalindrome(1));
